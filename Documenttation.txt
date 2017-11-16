@@ -1,0 +1,12 @@
+Branch - Master:
+	v1.0.0
+		- Initialitation the App for First Created
+
+Branch - Development:
+	v1.0.2
+		- Deleting the ContactPage
+		- Creating new Page with named booked
+		- Adding bookedPage inside tabPage
+		- Creating new Page with named splashmenu
+		- Changing the rootPage with SplashscreenmenuPage
+		- Displaying my Fucking Product to SplashscreenmenuPage which is First Launched as well
