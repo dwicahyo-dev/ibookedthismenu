@@ -1,15 +1,25 @@
+/**
+ + Kita nggak akan bermain-main pada Component ini. TITIK
+ * Karena itu udah Defaultnya seperti itu dan kita nggak akan mengutak-atiknya
+ * Kecuali jika dibutuhkan :D
+ */
 import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { TabsPage } from '../pages/tabs/tabs';
+// Kita akan meng-Import this funcking SplashScreenMenu
+import { SplashmenuPage} from "../pages/splashmenu/splashmenu";
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = TabsPage;
+  /**
+   * Meluncurkan SplashScreenMenu pertama kali oleh si Aplikasinya
+   * @type {SplashmenuPage}
+   */
+  rootPage:any = SplashmenuPage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
