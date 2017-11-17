@@ -10,11 +10,14 @@ import { MyApp } from './app.component';
 /**
 * Inisialisasi Page yang akan kita butuhkan
 */
-import { SplashmenuPage} from "../pages/splashmenu/splashmenu";
+// import { SplashmenuPage} from "../pages/splashmenu/splashmenu";
+
 import { AboutPage } from '../pages/about/about';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { BookedPage} from "../pages/booked/booked";
+
+import {BookingPage} from "../pages/booking/booking";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -32,7 +35,8 @@ import {AngularFireDatabaseModule} from "angularfire2/database";
     AboutPage,
     HomePage,
     TabsPage,
-    BookedPage
+    BookedPage,
+    BookingPage
   ],
   imports: [
     BrowserModule,
@@ -46,7 +50,8 @@ import {AngularFireDatabaseModule} from "angularfire2/database";
     AboutPage,
     HomePage,
     TabsPage,
-    BookedPage
+    BookedPage,
+    BookingPage
   ],
   providers: [
     StatusBar,

@@ -17,3 +17,15 @@ Branch - Development:
 		- Adding AngularFireBase with AngularFire2
 		- Configure AngularFire2
 		
+	v1.0.4
+		- Creating new Page with named booking
+		- Adding navPush which is BookingPage
+		
+		
+		
+		
+		
+		
+		
+		
+		
