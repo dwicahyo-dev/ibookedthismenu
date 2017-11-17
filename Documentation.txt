@@ -10,3 +10,8 @@ Branch - Development:
 		- Creating new Page with named splashmenu
 		- Changing the rootPage with SplashscreenmenuPage
 		- Displaying my Fucking Product to SplashscreenmenuPage which is First Launched as well
+		
+	v1.0.3
+		- Changing rootPage to lazyLoading page
+		- Creating Firebase Credentials
+		

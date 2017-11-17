@@ -1,6 +1,6 @@
 /**
  + Kita nggak akan bermain-main pada Component ini. TITIK
- * Karena itu udah Defaultnya seperti itu dan kita nggak akan mengutak-atiknya
+ * Karena itu udah Defaultnya seperti ini dan kita nggak akan mengutak-atiknya
  * Kecuali jika dibutuhkan :D
  */
 import { Component } from '@angular/core';
@@ -26,7 +26,7 @@ export class MyApp {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
       statusBar.styleDefault();
-      splashScreen.hide();
+      splashScreen.show();
     });
   }
 }
