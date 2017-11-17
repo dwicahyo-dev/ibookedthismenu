@@ -14,4 +14,6 @@ Branch - Development:
 	v1.0.3
 		- Changing rootPage to lazyLoading page
 		- Creating Firebase Credentials
+		- Adding AngularFireBase with AngularFire2
+		- Configure AngularFire2
 		

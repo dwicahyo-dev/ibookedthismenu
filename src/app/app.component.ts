@@ -9,7 +9,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 // Kita akan meng-Import this funcking SplashScreenMenu
-import { SplashmenuPage} from "../pages/splashmenu/splashmenu";
+// import { SplashmenuPage} from "../pages/splashmenu/splashmenu";
 
 @Component({
   templateUrl: 'app.html'
@@ -19,7 +19,7 @@ export class MyApp {
    * Meluncurkan SplashScreenMenu pertama kali oleh si Aplikasinya
    * @type {SplashmenuPage}
    */
-  rootPage:any = SplashmenuPage;
+  rootPage:string = 'SplashmenuPage';
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

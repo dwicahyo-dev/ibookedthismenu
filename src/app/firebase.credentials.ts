@@ -1,8 +1,8 @@
 export const FIREBASE_CONFIG = {
-  apiKey: YOUR-API-KEY,
-  authDomain: YOUR-AUTH- DOMAIN,
-  databaseURL: YOUR-ADD-df,
-  projectId: YOUR-PROJECT-ID,
-  storageBucket: YOUR-STORAGE-BUCKET,
-  messagingSenderId: YOUR-SENDER-ID,
+  apiKey: "AIzaSyDLSHD_Ky1yIKR4COuncVq-bhr73bQDJD0",
+  authDomain: "ibookedthismenu.firebaseapp.com",
+  databaseURL: "https://ibookedthismenu.firebaseio.com",
+  projectId: "ibookedthismenu",
+  storageBucket: "ibookedthismenu.appspot.com",
+  messagingSenderId: "371947061974"
 };
