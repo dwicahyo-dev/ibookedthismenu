@@ -14,5 +14,4 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
     this.pushPage = BookingPage;
   }
-
 }
