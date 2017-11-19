@@ -2,3 +2,33 @@ Branch - Master:
 	v1.0.0
 		- Initialitation the App for First Created
 
+<<<<<<< HEAD
+=======
+Branch - Development:
+	v1.0.2
+		- Deleting the ContactPage
+		- Creating new Page with named booked
+		- Adding bookedPage inside tabPage
+		- Creating new Page with named splashmenu
+		- Changing the rootPage with SplashscreenmenuPage
+		- Displaying my Fucking Product to SplashscreenmenuPage which is First Launched as well
+		
+	v1.0.3
+		- Changing rootPage to lazyLoading page
+		- Creating Firebase Credentials
+		- Adding AngularFireBase with AngularFire2
+		- Configure AngularFire2
+		
+	v1.0.4
+		- Creating new Page with named booking
+		- Adding navPush which is BookingPage
+		
+		
+		
+		
+		
+		
+		
+		
+		
+>>>>>>> development

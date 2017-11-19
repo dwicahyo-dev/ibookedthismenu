@@ -1,35 +1,57 @@
+/**
+ * Komponen yang digunakan untuk meng-inisialisasikan Application kita
+ * Seperti Page,
+ */
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
+/**
+* Inisialisasi Page yang akan kita butuhkan
+*/
+// import { SplashmenuPage} from "../pages/splashmenu/splashmenu";
+
 import { AboutPage } from '../pages/about/about';
-import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { BookedPage} from "../pages/booked/booked";
+
+import {BookingPage} from "../pages/booking/booking";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
+/**
+ * Importing AngularFireModule and the Credentials
+ */
+import {AngularFireModule} from 'angularfire2';
+import {FIREBASE_CONFIG} from "./firebase.credentials";
+import {AngularFireDatabaseModule} from "angularfire2/database";
 
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
-    ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    BookedPage,
+    BookingPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    AngularFireModule.initializeApp(FIREBASE_CONFIG),
+    AngularFireDatabaseModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     AboutPage,
-    ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    BookedPage,
+    BookingPage
   ],
   providers: [
     StatusBar,
